@@ -162,7 +162,7 @@ body{
 footer{
    color: var(--PaleBlue);
    width: 100%;
-   height: 150px;
+   height: 100px;
    position: absolute;
    bottom: 0;
    left: 0;
@@ -252,12 +252,19 @@ footer{
    .left-storage span{
       font-size: 46px;
    }
+   footer{
+      font-size: 6px;
+      height: 2px;
+   }
 }
 
 @media screen and (max-width: 376px){
    #balloon {
       top: 120px;
       left: 36px;
+   }
+   footer{
+      height: 1px;
    }
 }
 
