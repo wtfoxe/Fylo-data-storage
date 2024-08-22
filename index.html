@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+</head>
+<body>
+
+  <div id="container">
+    <div id="box_icons" class="box">
+      <img src="/assets/images/logo.svg" alt="image-logo" id="img_icon">
+      <div id="select_icon">
+        <img src="/assets/images/icon-document.svg" alt="image-document" id="img_document">
+        <img src="/assets/images/icon-folder.svg" alt="image-folder" id="img_folder">
+        <img src="/assets/images/icon-upload.svg" alt="image-upload" id="img_upload">
+      </div>
+    </div>
+    
+    <div id="box_infos" class="box">
+      <div class="left-storage" id='balloon'>
+        <span>185</span> GB LEFT
+      </div>
+
+      <div id="storages">
+        <div id="used-storage">
+          You’ve used <span>815 GB</span> of your storage
+        </div>
+  
+        <div id="total-storage">
+          <div class="progress-bar"><div id="status"><div id="circle"></div></div></div>
+          <div id="value-storage">
+            <span>0 GB</span>
+            <span>1000 GB</span>  
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Cogumello</a>.
+    </div>
+  </footer>
+  
+</body>
+</html>
